@@ -1,0 +1,21 @@
+:root {
+  --main-bg-color: #fff;
+  --sub-bg-color: #000;
+  --main-text-color: #000;
+  --sub-text-color: #fff;
+  --inactive: #818181;
+  --success: #bee3be;
+  --link-color: blue;
+  --accent-color: #ff0000;
+
+  --first-brand-color: #d6d1cb;
+  --second-brand-color: #302e2b;
+  --third-brand-color: #ca4646;
+  --fourth-brand-color: #eeeeee;
+
+  --main-font:  'Open Sans Condensed';
+  --title-font:  'Open Sans Condensed Bold';
+  --main-title-font: 'Bebas Neue';
+
+  font-size: 62.5%;
+}
