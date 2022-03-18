@@ -30,7 +30,12 @@
 .footer__block--right {
   margin-bottom: 0;
 }
-
+.footer__icon {
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+}
 @media screen and (min-width: 1440px)  {
  
   .footer__link {
