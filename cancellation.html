@@ -5,28 +5,16 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <link rel="stylesheet" href="./css/style.css" />
   <title>Shop</title>
-
 </head>
 
 <body>
 
+
+
+
   <div class="wrapper">
-
-    <div class="error__overlay js_error__overlay">
-      <div class="error">
-        <span class="text bold error__text error__title">ERROR:</span>
-        <p class="text error__text">You cannot add more than $500 worth of items to your cart.</p>
-        <p class="text error__text">The selected item will not be added.</p>
-        <button class="text error__btn js_error__btn">close</button>
-      </div>
-    </div>
-
-
-   
-
     <div class="header__wrapper">
       <div class="container">
      
@@ -104,77 +92,32 @@
       </div>
     </div>
 
-
-    <main class="main">
-
+    <main class="main bg-main">
+        <div class="text-section__wrapper white__wrapper">
+          <section class="text-section">
+            <div class="container">
+              <h1 class="title">Cancellation of Order</h1>
+              <form>
+                <p class="text">Please fill out the information below. After completing and submitting this form, 
+                  your account will be terminated and all billing will be stopped. Once the account has been cancelled, you will receive a cancellation email confirmation.
+                </p>
+                <label class="label js_label">
+                  <input type="text" class="input js_input" data-role="required" name="email" placeholder="Email">
+                </label>
+          
+                <label class="label js_label">
+                  <input type="text" class="input js_input" data-role="required" name="phone" placeholder="Phone Number">
+                </label>
     
-      <div class="hero__wrapper">
-        <div class="container">
-          <div class="hero">
-            <div class="img-box">
-              <h2 class="hero-main__title">The evolution continues.</h2>
-              <img src="./img/bg.png" alt="" class="img">
+                <label class="label js_label">
+                  <input type="text" class="input js_input" data-role="required" name="orderid" placeholder="Order Number">
+                </label>
+              </form> 
             </div>
-            <div class="text-block">
-            <h1 class="hero-title">Simply better shopping.</h1>
-            <p class="text">Online shopping is the best way to buy everything you need in two clicks.</p>
-             <a href="./shop.html" class="btn">my cart</a>
-            </div>
-           
-         
-          </div>
-        </div>
-      </div>
-
-      <div class="info__wrapper">
-        <div class="container">
-          <section class="info">
-            <ul class="list">
-              <li class="item">
-                <h3 class="sub-title">PRIVACY NOTICE</h3>
-                <p class="text">We are committed to providing an exciting and safe online shopping experience and elevated level of personal service synonymous with the Company.</p>
-              </li>
-              <li class="item">
-                <h3 class="sub-title">RETURN POLICY</h3>
-                <p class="text">The items are eligible for free replacement, within 30 days of delivery, in an unlikely event of damaged, defective or different item delivered to you.</p>
-              </li>
-            </ul>
           </section>
-        </div>
       </div>
-
- 
-
-
-
-
-
-      <div class="products__wrapper hero-products">
-      <div class="container">
-        <section class="products">
-          <h3 class="products__title">Our Products</h3>
-         
-            <div class="sub-title__box">
-              <p class="text success-message js_success-message">Success! You have added <span
-                  class="js_success-product-name"></span> to your shopping cart!</p>
-            </div>
-            <ul class="products__list js_products__list"></ul>
-
-        </section>
-      </div>
-      </div>
-
-  
-      <div class="about__wrapper">
-        <div class="container">
-          <section class="about">
-            <h4 class="about__title">Transforming shopping into an experience</h4>
-          </section>
-        </div>
-      </div>
-
     </main>
-  
+
     <div class="footer__wrapper">
       <footer class="footer">
           <div class="container">
@@ -234,15 +177,9 @@
           </div>
     </footer>
     </div>
- 
   </div>
 
-
-
-
-
-  <script type="module" src="./js/cart.js"></script>
-  <script type="module" src="./js/add-to-cart.js"></script>
+ 
   <script type="module" src="./js/on-load.js"></script>
   <script type="module" src="./js/website-data.js"></script>
   <script>
@@ -254,7 +191,6 @@
       document.body.classList.toggle('open-menu');
     })
   </script>
-
 </body>
 
 </html>
