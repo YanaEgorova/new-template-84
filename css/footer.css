@@ -70,7 +70,9 @@
   .footer__block--right {
     text-align: right;
   }
-
+  .footer__item {
+    margin-bottom: 1.5rem;
+}
 
   
 }
